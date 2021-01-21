@@ -37,7 +37,6 @@ const index = () => {
                     <p className="p-text">Deň zápisu: 07.11.2013</p>
                     <div className="desktop-div">
                         <h2 className="h2-heading">Kontaktujte nás:</h2>
-                        <br />
                         <form onSubmit={sendEmail}>
                             <input className="input-field" type="text" name="name" placeholder="Meno/Názov spoločnosti"></input>
                             <input className="input-field" type="email" name="email" placeholder="Váš email"></input>
