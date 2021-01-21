@@ -2,7 +2,22 @@ import Layout from "../components/Layout.js"
 
 import Head from "next/head"
 
+import emailjs from "emailjs-com"
+
 const index = () => {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('service_xhpiebu', 'template_n2xgap7', e.target, 'user_3mYfrOcpDiD2jB1VinkuJ')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            e.target.reset()
+    }
+
     return (
         <Layout>
             <Head>
@@ -20,6 +35,18 @@ const index = () => {
                     <p className="p-text">Právna forma: Spoločnosť s ručením obmedzeným</p>
                     <br />
                     <p className="p-text">Deň zápisu: 07.11.2013</p>
+                    <div className="desktop-div">
+                        <h2 className="h2-heading">Kontaktujte nás:</h2>
+                        <br />
+                        <form onSubmit={sendEmail}>
+                            <input className="input-field" type="text" name="name" placeholder="Meno/Názov spoločnosti"></input>
+                            <input className="input-field" type="email" name="email" placeholder="Váš email"></input>
+                            <input className="input-field" type="text" name="subject" placeholder="Predmet"></input>
+                            <textarea className="textarea" name="text" placeholder="Text"></textarea>
+                            <br />
+                            <button className="button">Odoslať</button>
+                        </form>
+                    </div>
                 </div>
 
                 <div className="body-div-two">

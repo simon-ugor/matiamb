@@ -94,6 +94,10 @@
     font-family: medium;
 }
 
+.desktop-div {
+    display: none;
+}
+
 /* Media Queries */
 
 @media only screen and (orientation: landscape) {
@@ -123,17 +127,17 @@
     }
 
     .map-h2 {
-        margin-top: 2vh;
-        font-size: 5vh;
+        margin-top: 1vh;
+        font-size: 4vh;
     }
     
     .h2-heading {
-        margin-top: 2vh;
-        font-size: 5vh;
+        margin-top: 1vh;
+        font-size: 4vh;
     }
 
     .p-text {
-        font-size: 3.5vh;
+        font-size: 3vh;
     }
 
     .main-body-div {
@@ -148,5 +152,54 @@
         bottom: 0;
         left: 0;
         width: 100vw;
+    }
+
+    .desktop-div {
+        margin-top: 1vh;
+        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-field {
+        padding-left: 0.5vh;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+        width: 35vw;
+        margin: 0.5vh;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        font-family: regular;
+        background-color: white;
+    }
+
+    .textarea {
+        padding-left: 0.5vh;
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+        width: 35vw;
+        margin: 0.5vh;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        font-family: regular;
+        background-color: white;
+        height: 13vh;
+        max-width: 35vw;
+        max-height: 13vh;
+        min-width: 35vw;
+        min-height: 13vh;
+    }
+
+    .button {
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        font-family: regular;
+        padding: 0.5vh;
+        background-color: white;
+        width: 5vw;
+        cursor: pointer;
     }
 }
