@@ -37,7 +37,6 @@
     width: 100vw;
     height: 8vh;
     background-color: #B5DCCA;
-    color: black;
     font-family: medium;
     font-size: 2.3vh;
     display: flex;
@@ -93,4 +92,61 @@
 
 .h2-heading {
     font-family: medium;
+}
+
+/* Media Queries */
+
+@media only screen and (orientation: landscape) {
+    .body-div-one {
+        width: 47vw;
+        padding: 0;
+        height: 75vh;
+        margin: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-main-div {
+        font-size: 3vh;
+    }
+
+    .body-div-two {
+        width: 47vw;
+        padding: 0;
+        height: 75vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .map-h2 {
+        margin-top: 2vh;
+        font-size: 5vh;
+    }
+    
+    .h2-heading {
+        margin-top: 2vh;
+        font-size: 5vh;
+    }
+
+    .p-text {
+        font-size: 3.5vh;
+    }
+
+    .main-body-div {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 80vh;
+    }
+
+    .footer-main-div {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+    }
 }
