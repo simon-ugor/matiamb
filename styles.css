@@ -24,11 +24,10 @@
     justify-content: center;
     align-items: center;
     background-color: #B5DCCA;
-    color: black;
+    color: white;
     font-family: medium;
     font-size: 2.3vh;
     border-bottom: 3px solid #62BE9A;
-    color: white;
 }
 
 /* Footer */
@@ -100,7 +99,8 @@
 
 /* Media Queries */
 
-@media only screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) {  
+
     .body-div-one {
         width: 47vw;
         padding: 0;
@@ -114,6 +114,8 @@
 
     .header-main-div {
         font-size: 3vh;
+        background-color: white;
+        color: #B5DCCA;
     }
 
     .body-div-two {
@@ -152,6 +154,8 @@
         bottom: 0;
         left: 0;
         width: 100vw;
+        background-color: white;
+        color: #B5DCCA;
     }
 
     .desktop-div {
