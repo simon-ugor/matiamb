@@ -23,12 +23,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(72,167,148);
-    background: linear-gradient(90deg, rgba(72,167,148,1) 0%, rgba(181,220,202,1) 100%);
+    background-color: #B5DCCA;
     color: black;
     font-family: medium;
     font-size: 2.3vh;
-    border-bottom: 3px solid rgb(72,167,148);
+    border-bottom: 3px solid #62BE9A;
     color: white;
 }
 
@@ -37,15 +36,14 @@
 .footer-main-div {
     width: 100vw;
     height: 8vh;
-    background: rgb(72,167,148);
-    background: linear-gradient(90deg, rgba(72,167,148,1) 0%, rgba(181,220,202,1) 100%);
+    background-color: #B5DCCA;
     color: black;
     font-family: medium;
     font-size: 2.3vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 3px solid rgb(72,167,148);
+    border-top: 3px solid #62BE9A;
     color: white;
 }
 
@@ -59,26 +57,25 @@
 }
 
 .body-div-one {
-    padding: 2vh;
+    padding: 1.5vh;
     border-radius: 10px;
-    background: rgb(72,167,148);
-    background: linear-gradient(90deg, rgba(72,167,148,1) 0%, rgba(181,220,202,1) 100%);
+    background-color: #B5DCCA;
+    border: 3px solid #62BE9A;
     color: white;
 }
 
 .body-div-two {
     text-align: center;
-    background: rgb(72,167,148);
-    background: linear-gradient(90deg, rgba(72,167,148,1) 0%, rgba(181,220,202,1) 100%);
+    background-color: #B5DCCA;
+    border: 3px solid #62BE9A;
     border-radius: 10px;
     margin-top: 1.5vh;
     color: white;
 }
 
 .map {
-    border: 3px solid white;
     border-radius: 10px;
-    margin-bottom: 2vh;
+    margin-bottom: 1.5vh;
 }
 
 .map-h2 {

@@ -24,7 +24,7 @@ const index = () => {
 
                 <div className="body-div-two">
                     <h2 className="map-h2">Sídlo spoločnosti:</h2>
-                    <iframe className="map" width="90%" height="450" frameBorder="" scrolling="no" marginHeight="0" marginWidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=W.%20Schiffera%205%20Trnava+(MATIAMB)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.symptoma.sk/sk/info/covid-19#info'>SARS-CoV-2</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=51a6ed110e48cf5bc0de94d3ad6da25ca8f9ea35'></script>
+                    <iframe className="map" width="92%" height="450" frameBorder="" scrolling="no" marginHeight="0" marginWidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=W.%20Schiffera%205%20Trnava+(MATIAMB)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.symptoma.sk/sk/info/covid-19#info'>SARS-CoV-2</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=51a6ed110e48cf5bc0de94d3ad6da25ca8f9ea35'></script>
                 </div>
             </div>
         </Layout>
